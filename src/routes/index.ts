@@ -3,7 +3,7 @@ const routes = {
 
   //API ROUTES
   server: {
-    base: "https://sudio-ceriga-backend.vercel.app",
+    base: "https://ceriga-devy-backend.vercel.app",
     //base: "http://localhost:4000",
     auth: "/auth",
     refresh: "/auth/refresh",
@@ -94,7 +94,7 @@ const routes = {
   order: "/order",
   orders: "/orders",
   orderPreview: "/order-preview/:id",
-  setting:  "/change-password",//"/setting",
+  setting: "/change-password",//"/setting",
   changePassword: "/change-password",
   notification: "/notification",
   statistics: "/statistics",
@@ -127,7 +127,7 @@ const routes = {
 
   dashboard: "/dashboard",
   changePrice: "/change-price",
-  
+
 };
 
 export default routes;
